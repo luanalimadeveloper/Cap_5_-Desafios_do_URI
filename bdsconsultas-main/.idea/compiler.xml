@@ -7,15 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="uri2611" />
-        <module name="uri2609" />
         <module name="uri2602" />
-        <module name="uri2990" />
+        <module name="uri2603" />
         <module name="uri2737" />
+        <module name="uri2609" />
+        <module name="uri2990" />
         <module name="uri2621" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="uri2602" target="11" />
+      <module name="uri2603" target="11" />
       <module name="uri2609" target="11" />
       <module name="uri2611" target="11" />
       <module name="uri2621" target="11" />
@@ -26,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="uri2602" options="-parameters" />
+      <module name="uri2603" options="-parameters" />
       <module name="uri2609" options="-parameters" />
       <module name="uri2611" options="-parameters" />
       <module name="uri2621" options="-parameters" />
