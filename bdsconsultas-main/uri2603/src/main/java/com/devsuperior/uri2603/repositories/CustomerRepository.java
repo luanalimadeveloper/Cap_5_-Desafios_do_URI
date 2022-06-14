@@ -18,7 +18,6 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
     )
     List<CustomerMinProjection> search1(String city);
 
-
     @Query(
         "SELECT new com.devsuperior.uri2603.dto.CustomerDTO(obj.name, obj.street) " +
         "FROM Customer obj " +

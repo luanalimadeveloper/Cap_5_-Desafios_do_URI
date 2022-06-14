@@ -33,7 +33,6 @@ public class Uri2603Application implements CommandLineRunner {
 			System.out.println(obj);
 		}
 
-
 		System.out.println("\n ___________  JPQL  ___________");
 		List<CustomerDTO> result2 = repository.search2("Porto Alegre");
 
